@@ -52,17 +52,17 @@ export default function Skills() {
 
     return (
         <>
-            <div className='h-[90vh] flex' id='skills'>
-                <div className='basis-1/2 flex gap-6 pl-24 pt-24'>
-                    <div className='basis-1/2'>
-                        <p className='text-4xl pb-8'>Experiencia</p>
+            <div className='h-[180vh] lg:h-[85vh] flex flex-col lg:flex-row' id='skills'>
+                <div className='basis-1/2 flex flex-col md:flex-row gap-6 pl-24 pt-24'>
+                    <div className='basis-1/2 pb-8 space-y-2'>
+                        <p className='text-4xl md:pb-8'>Experiencia</p>
                         <div className='grid'>
                             {jobs && experienceRenderer(jobs)}
 
                         </div>
                     </div>
-                    <div className='basis-1/2'>
-                        <p className='text-4xl pb-8'>Certificados</p>
+                    <div className='basis-1/2 pb-8 space-y-2'>
+                        <p className='text-4xl md:pb-8'>Certificados</p>
                         <div className='grid'>
                             {courses && experienceRenderer(courses)}
                         </div>

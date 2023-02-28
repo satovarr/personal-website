@@ -14,6 +14,9 @@ module.exports = {
       gridRow: {
         "span-7": "span 7 / span 7",
       },
+      gridRowStart: {
+        "8":"8"
+      },
       spacing: {
         "3/5": "60%",
         "1/12": "8.33%",
